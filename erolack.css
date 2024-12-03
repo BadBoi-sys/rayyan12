@@ -1,0 +1,727 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    flex-basis: 100%;
+    width: 100%;
+    height: 140px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    position: fixed;
+}
+
+/* 
+.background {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/flowing-watercolor-strokes-vibrant-abstract-background-with-burst-of-colors-ble-srwjjdjx.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+#logo {
+    font-size: 150px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+.home {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 250px;
+    background-color: rgb(255, 174, 0);
+    padding-top: 85px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Fira Sans", sans-serif;
+    width: 70px;
+}
+
+
+
+.home:hover {
+    cursor: pointer;
+    background-color: rgb(255, 174, 0);
+    box-shadow: 0px 10px 10px 10px whitesmoke;
+}
+
+.about {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 1px;
+    padding-top: 85px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Fira Sans", sans-serif;
+    width: 70px;
+}
+
+.about:hover {
+    background-color: rgb(255, 174, 0);
+    cursor: pointer;
+    box-shadow: 0px 10px 10px 10px whitesmoke;
+}
+
+.products {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 1px;
+    padding-top: 85px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Fira Sans", sans-serif;
+    width: 100px;
+}
+
+.products:hover {
+    background-color: rgb(255, 174, 0);
+    cursor: pointer;
+    box-shadow: 0px 10px 10px 10px whitesmoke;
+}
+
+.projects {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 1px;
+    padding-top: 85px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Fira Sans", sans-serif;
+    width: 90px;
+}
+
+.projects:hover {
+    background-color: rgb(255, 174, 0);
+    cursor: pointer;
+    box-shadow: 0px 10px 10px 10px whitesmoke;
+}
+
+.pricelist {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 1px;
+    padding-top: 85px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Fira Sans", sans-serif;
+    width: 100px;
+
+
+}
+
+.pricelist:hover {
+    background-color: rgb(255, 174, 0);
+    cursor: pointer;
+    box-shadow: 0px 10px 10px 10px whitesmoke;
+}
+
+.clientsfeedback {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 1px;
+    padding-top: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Fira Sans", sans-serif;
+    width: 120px;
+
+}
+
+.clientsfeedback:hover {
+    background-color: rgb(255, 174, 0);
+    cursor: pointer;
+    box-shadow: 0px 10px 10px 10px whitesmoke;
+}
+
+#facebook {
+    margin-left: 160px;
+    font-size: 30px;
+    z-index: 1;
+    color: white;
+}
+
+#facebook:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.background2 {
+    width: 100%;
+    height: 150vh;
+    background-color: white;
+}
+
+#heading {
+    font-size: 80px;
+    color: white;
+    padding-top: 250px;
+    font-weight: 340;
+    padding-left: 50px;
+    font-family: "Outfit", sans-serif;
+    position: absolute;
+    padding-top: 350px;
+
+}
+
+#heading1 {
+    color: rgb(255, 188, 44);
+    font-size: 90px;
+    font-family: "Dancing Script", cursive;
+    margin-left: 50px;
+    margin-top: 200px;
+    position: absolute;
+
+}
+
+#heading3 {
+    text-shadow: 104px 11px 0px #eaeaea;
+    font-size: 30px;
+    color: #0153a5;
+    margin-top: 47px;
+    margin-left: 90px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 470;
+}
+
+.maindiv {
+    width: 50%;
+    height: 50vh;
+    display: inline-block;
+}
+
+
+.image {
+    width: 340px;
+    height: 300px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.firstdiv {
+
+    width: 500px;
+    height: 70vh;
+    display: inline-block;
+}
+
+#heading10 {
+    text-shadow: 104px 11px 0px #eaeaea;
+    color: rgb(50, 4, 255);
+    margin-left: 90px;
+    margin-top: 50px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 420;
+}
+
+#paragraph1 {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+#paragraph20 {
+    margin-top: 30px;
+    margin-left: 90px;
+    visibility: hidden;
+}
+
+#paragraph30 {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+#imagea {
+    display: inline-block;
+    margin-top: -1000px;
+    margin-left: 600px;
+}
+
+#imageb {
+    width: 550px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 90px;
+    display: flex;
+}
+
+#heading40 {
+    display: flex;
+    margin-top: -500px;
+    margin-left: 750px;
+    font-size: 30px;
+    color: rgb(50, 4, 255);
+    font-weight: 700;
+    text-shadow: 104px 11px 0px #eaeaea;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 420;
+
+}
+
+
+#paragraph20 {
+    margin-top: 30px;
+    margin-left: 750px;
+    width: 600px;
+}
+
+.imagec {
+    width: 203px;
+    height: 200px;
+    display: flex;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    margin-left: 1000px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.imaged {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    margin-left: 750px;
+    margin-top: -202px;
+    border-radius: 5px;
+
+}
+
+#heading100 {
+    color: black;
+    display: flex;
+    margin-left: 770px;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 20px;
+    color: rgb(50, 4, 255);
+    font-family: "Fira Sans", sans-serif;
+}
+
+#heading200 {
+    color: black;
+    display: flex;
+    margin-left: 1020px;
+    font-size: 20px;
+    width: 200px;
+    margin-top: -22px;
+    color: rgb(50, 4, 255);
+    font-family: "Fira Sans", sans-serif;
+
+}
+
+.maindiv3 {
+    width: 100%;
+    height: 80vh;
+}
+
+.laptop video {
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+}
+
+.laptop {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+#heading500 {
+    margin-left: 90px;
+    color: rgb(50, 4, 255);
+    font-family: "Fira Sans", sans-serif;
+    text-shadow: 104px 11px 0px #eaeaea;
+}
+
+.one {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.two {
+    background-image: url(images/silde-2.jpg);
+    width: 385px;
+    height: 400px;
+    background-position: center;
+}
+
+.three {
+    background-image: url(images/yards\ 23.png);
+    width: 385px;
+    height: 400px;
+    background-position: center;
+}
+
+.four {
+    background-image: url(images/house_paint.png);
+    width: 385px;
+    height: 400px;
+    background-position: center;
+}
+
+.five {
+    background-image: url(images/living_room.png);
+    width: 385px;
+    height: 400px;
+    background-position: center;
+}
+
+.moon {
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 30px;
+    margin-top: 220px;
+    margin-left: 25px;
+    font-weight: 700;
+
+
+}
+
+.earth {
+    margin-top: 20px;
+    color: white;
+    margin-left: 25px;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.saturn {
+    width: 160px;
+    height: 40px;
+    margin-left: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 32px;
+    border-style: none;
+    margin-top: 1 0px;
+    font-size: 16px;
+
+}
+
+.saturn:hover {
+    background-color: white;
+    color: purple;
+
+}
+
+.maindiv5 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.hp {
+    margin-left: 90px;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: "Fira Sans", sans-serif;
+    color: rgb(50, 4, 255);
+    text-shadow: 104px 11px 0px #eaeaea;
+}
+
+.probook {
+    display: inline-block;
+    color: red;
+    font-size: 20px;
+    text-shadow: 104px 11px 0px #eaeaea;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.pro {
+    float: right;
+    margin-top: 50px;
+    color: rgb(50, 4, 255);
+    font-family: "Fira Sans", sans-serif;
+}
+
+#tablerow {
+
+    background-color: red;
+    color: black;
+    width: 50px;
+
+}
+
+.stars {
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+
+}
+
+#time {
+    margin-left: 90px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 30px;
+    text-shadow: 104px 11px 0px #eaeaea;
+    color: rgb(50, 4, 255);
+}
+
+.image90 {
+    background-image: url(images/iqbal\ sab.jpg);
+    width: 600px;
+    height: 450px;
+    margin-left: 90px;
+    margin-top: 50px;
+    background-position: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+}
+
+.paragraph50 {
+    margin-top: -440px;
+    display: flex;
+    width: 510px;
+    height: 200px;
+    margin-left: 750px;
+
+}
+
+#para70 {
+    font-size: 23px;
+    padding-top: 20px;
+    font-family: "Fira Sans", sans-serif;
+    color: rgba(84, 84, 84, 0.5);
+
+}
+
+.headingmoon {
+    width: 250px;
+    height: 70px;
+    margin-left: 750px;
+    margin-top: 40px;
+}
+
+#para300 {
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+
+}
+
+#para400 {
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+
+}
+
+.footer {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/footer_layer\ rayyan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact {
+    margin-left: 90px;
+    display: inline-block;
+    margin-top: 100px;
+    font-family: "Fira Sans", sans-serif;
+    text-shadow: 80px 11px 3px #eaeaea;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.information {
+    width: 320px;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 17px;
+
+
+}
+
+#rayyanfayyaz {
+    color: yellow;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: -10px;
+}
+
+#fayyaz {
+    color: white;
+}
+
+.information2 {
+    width: 320px;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 17px;
+
+
+}
+
+.allthingsone {
+    display: inline-block;
+}
+
+.icons {
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    
+}
+
+#jupiter {
+    margin-left: 10px;
+
+}
+
+#jupiter:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+#venus {
+    margin-left: 10px;
+
+}
+
+#venus:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+#mars {
+    margin-left: 10px;
+
+}
+
+#mars:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+#mercury:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+
+
+.display {
+    display: inline-block;
+    width: 50px;
+    border: 2 px solid red;
+    margin-top: 20px;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+
+}
+
+.display:hover {
+    cursor: pointer;
+}
+
+.hpme {
+    margin-left: 90px;
+}
+
+.king {
+    display: inline-block;
+
+}
+
+.dashed {
+    color: white;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.ended {
+    color: white;
+    width: 380px;
+    margin-left: 90px;
+    margin-top: 25px;
+}
+
+#only {
+    color: yellow;
+    font-family: "Fira Sans", sans-serif;
+}
+
+
+#email {
+    color: yellow;
+    font-family: "Fira Sans", sans-serif;
+    
+}
+
+#cover {
+    color: white;
+}
+
+
+.maintwo {
+    display: inline-block;
+    width: 190px;
+    margin-left: 250px;
+    
+    
+}
+
+#logo99{
+    display: inline-block;
+    margin-left: 630px;
+}
+
+#send{
+    color: white;
+    font-size: 35px;
+    display: inline-block;
+    margin-left: 50px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+#name{
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    
+}
+
+#input100{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#nooo{
+    margin-left: 100px;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#textdecoration{
+    text-decoration: none;
+}
+
+a{
+    color: rgb(50, 4, 255);
+}
+
+/* This is updated text , wriiten on css to check avalablility of github  */
